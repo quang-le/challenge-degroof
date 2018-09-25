@@ -13,12 +13,13 @@ export default class App extends React.Component {
   componentWillMount() {
     // Initialize Firebase
     const config = {
-      apiKey: "<INSERT YOUR INFO HERE>",
-      authDomain: "<INSERT YOUR INFO HERE>",
-      databaseURL: "<INSERT YOUR INFO HERE>",
-      projectId: "<INSERT YOUR INFO HERE>",
-      storageBucket: "<INSERT YOUR INFO HERE>",
-      messagingSenderId: "<INSERT YOUR INFO HERE>"
+      apiKey: "AIzaSyDXQtmRhiNLQq0qF5ctIHsdE6icWY4LlLg",
+      authDomain: "degroof-14857.firebaseapp.com",
+      databaseURL: "https://degroof-14857.firebaseio.com",
+      projectId: "degroof-14857",
+      storageBucket: "degroof-14857.appspot.com",
+      messagingSenderId: "239043040319"
+  
     };
     firebase.initializeApp(config);
   }
